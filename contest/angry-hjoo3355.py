@@ -22,4 +22,4 @@ print("(ㅜ^ㅠ) hjoo3355들이 화가 난 이유를 알려드리겠습니다...
 
 for data in reasons:
     i, r = data
-    print(i + ": " + r)
+    print(str(i) + ": " + r)
