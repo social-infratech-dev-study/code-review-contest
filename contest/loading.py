@@ -10,6 +10,6 @@ elapsed = 0
 while n > 0:
     elapsed += 1
     time.sleep(1)
-    print("loading... " + elapsed)
+    print("loading... " + str(elapsed))
     
 print("\nloading ends")
