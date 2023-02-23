@@ -1,3 +1,5 @@
+print("오름차순으로 정렬할 값을 입력해주세요. 값들은 빈칸으로 구분해주세요.")
+
 array = list(map(int, input().split()))
 
 def bubble_sort(arr):
