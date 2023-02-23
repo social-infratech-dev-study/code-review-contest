@@ -1,6 +1,6 @@
 array = list(map(int, input().split()))
 
-def quic_sort(arr):
+def quick_sort(arr):
     if len(arr) <= 1:
         return arr
     pv = arr[len(arr) // 2]
@@ -12,6 +12,6 @@ def quic_sort(arr):
             less.append(n)
         else:
             equal.append(n)
-    return quic_sort(less) + equal + quic_sort(greater)
+    return quick_sort(less) + equal + quick_sort(greater)
 
-print(quic_sort(array))
+print(quick_sort(array))
