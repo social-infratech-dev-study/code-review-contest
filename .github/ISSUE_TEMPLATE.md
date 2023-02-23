@@ -12,6 +12,6 @@
 
 ## Specifications
 
-  - commit; 
+  - latest commit; 
   - os;
-  - go version;
+  - python version;
